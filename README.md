@@ -11,5 +11,5 @@
 [indent: Indent and Format C Program Source](https://www.gnu.org/software/indent/manual/indent.html)<br>
 [Recommended C Style and Coding Standards](https://www2.cs.arizona.edu/~mccann/cstyle.html)<br>
 
-gcc --version
+gcc --version<br>
 gcc (Ubuntu 13.2.0-23ubuntu4) 13.2.0
