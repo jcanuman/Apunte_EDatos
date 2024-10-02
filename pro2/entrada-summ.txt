@@ -1,0 +1,15 @@
+# Configuración inicial
+Total_Memory, 2048  # Memoria total en KB
+Block_Size, 128     # Tamaño de los bloques en KB
+Algorithm, BestFit  # Algoritmo de asignación de memoria
+CPU_Cores, 4        # Número de núcleos de CPU
+Scheduling_Algorithm, RoundRobin # Algoritmo de planificación de procesos
+Time_Quantum, 5     # Cuánto tiempo puede usar un proceso la CPU (para RoundRobin)
+
+# Procesos
+# Process_ID, Arrival_Time, Burst_Time, Memory_Required
+P1, 0, 5, 256
+P2, 2, 8, 512
+P3, 4, 6, 384
+P4, 6, 4, 128
+P5, 8, 3, 256
